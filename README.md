@@ -1,7 +1,7 @@
 # GameBuddy
 **GameBuddy** est votre compagnon de jeu ultime, conçu pour simplifier et améliorer le partage de vos jeux vidéo préférés avec vos amis. Avec GameBuddy, vous pouvez facilement prêter et emprunter des jeux, créer une liste de souhaits pour savoir quels jeux vos amis aimeraient essayer, et rester connecté avec une communauté de joueurs partageant les mêmes intérêts. **En cours de developpement**
 
-**Inscription et Connexion :**
+__**Inscription et Connexion :**__
 
 Les utilisateurs peuvent créer un compte en fournissant des informations telles que leur nom, prénom, adresse e-mail, pseudo et mot de passe.
 Ils peuvent se connecter avec leur pseudo et mot de passe une fois qu'ils ont créé un compte.
