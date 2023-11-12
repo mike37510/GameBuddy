@@ -17,6 +17,7 @@
             <li><a href="collection.php">Gestion de ma collection</a></li>
             <li><a href="emprunt.php">Gestion des emprunts</a></li>
             <li><a href="voirmacollection.php">Voir ma collection</a></li>
+            <li><a href="moncompte.php">Mon compte</a></li>
             <li><a href="inscription.php">Inscription</a></li>
             <li><a href="connexion.php">Connexion</a></li>
             <li><a href="deconnexion.php">Déconnexion</a></li>

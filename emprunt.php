@@ -52,7 +52,7 @@ if ($logged_in) {
         <input type="submit" value="Rechercher">
     </form>
 
-    <!-- Afficher la collection de l'utilisateur avec la possibilité de demander un emprunt -->
+    <!-- Afficher tous les jeux disponibles avec la possibilité de demander un emprunt -->
     <?php
     include("db_connection.php"); // Inclure le fichier de connexion à la base de données
 
@@ -66,8 +66,8 @@ if ($logged_in) {
                                        INNER JOIN collection c ON j.id = c.id_jeu
                                        INNER JOIN utilisateurs u ON c.id_utilisateur = u.id
                                        INNER JOIN supports s ON j.id_support = s.id
-                                       WHERE u.pseudo = :pseudo AND j.nom_jeu LIKE :recherche");
-        $query_search->execute(array(':pseudo' => $pseudo, ':recherche' => '%' . $recherche . '%'));
+                                       WHERE j.nom_jeu LIKE :recherche");
+        $query_search->execute(array(':recherche' => '%' . $recherche . '%'));
 
         while ($row_search = $query_search->fetch(PDO::FETCH_ASSOC)) {
             echo '<div class="result">';
